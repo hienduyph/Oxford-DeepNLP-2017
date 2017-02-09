@@ -1,5 +1,5 @@
 # Oxford DeepNLP 2017
-This repo contains all lectures slides, videos and my solutions for practices.
+This repo contains all lectures slides, videos and my solutions for practices (using TensorFlow)
 
 ## Course Materials
 - Lecture 1a: Introductions
@@ -30,12 +30,12 @@ This repo contains all lectures slides, videos and my solutions for practices.
     - [Slide](slides/Lectures-5-Text-Classification.pdf)
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbc0d5cb-4d24-41be-a988-85a08eb1b2f7)
     - Download Video
-- Lecture 6: Deep Neural Networks are our friends.
-    - [Slide](slides/Lectures-1b-Deep-Neural-Networks-are-our-friends.pdf)
-    - Watch Video
+- Lecture 6: Deep NLP on Nvidia GPUs.
+    - [Slide](slides/Lectures-6-Deep-NLP-on-Nvidia-GPUs.pdf)
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f53e1dee-4985-4b9c-b230-6667b9da4ec0)
     - Download Video
 
-[More Resource recomended from Official Oxford GithubRepo](READING.md)
+[More Resource recomended from Official oxford-cs-deepnlp-2017](READING.md)
 
 ## Practicals
 - [Practical1 - word2vec](practicals/practical1)

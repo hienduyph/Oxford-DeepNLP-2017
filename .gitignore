@@ -1,0 +1,5 @@
+# Datasets
+*.zip
+
+# Ipython stuffs
+.ipynb_checkpoints
