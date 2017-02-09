@@ -1,0 +1,4 @@
+gensim
+numpy
+bokeh
+scikit-learn
