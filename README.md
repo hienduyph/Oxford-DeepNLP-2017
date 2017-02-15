@@ -25,16 +25,19 @@ This repo contains all lectures slides, videos and my solutions for practices (u
 - Lecture 4: Language Modelling and RNNs Part 2.
     - [Slide](slides/Lectures-4-Language-Modelling-and-RNNs-Part-2.pdf)
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fa8df3a8-e7e5-4044-9199-751bcf0a9298)
-    - Download Video
+    - [Download Video](http://media.podcasts.ox.ac.uk/comlab/deep_learning_NLP/2017-01_deep_NLP_4_modelling_2.mp4)
 - Lecture 5: Text Classification.
     - [Slide](slides/Lectures-5-Text-Classification.pdf)
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbc0d5cb-4d24-41be-a988-85a08eb1b2f7)
-    - Download Video
+    - [Download Video](http://media.podcasts.ox.ac.uk/comlab/deep_learning_NLP/2017-01_deep_NLP_5_text_classification.mp4)
 - Lecture 6: Deep NLP on Nvidia GPUs.
     - [Slide](slides/Lectures-6-Deep-NLP-on-Nvidia-GPUs.pdf)
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f53e1dee-4985-4b9c-b230-6667b9da4ec0)
+    - [Download Video](http://media.podcasts.ox.ac.uk/comlab/deep_learning_NLP/2017-01_deep_NLP_6_nvidia_gpus.mp4)
+- Lecture 7: Conditional Language Models
+    - [Slide](slides/Lectures-7-Conditional-Language-Models.pdf)
+    - Watch Video
     - Download Video
-
 [More Resource recomended from Official oxford-cs-deepnlp-2017](READING.md)
 
 ## Practicals

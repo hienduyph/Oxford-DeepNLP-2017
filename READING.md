@@ -49,3 +49,12 @@
  * [Optimizing Performance of Recurrent Neural Networks on GPUs. Appleyard et al., arXiv 2016.](https://arxiv.org/abs/1604.01946)
  * [Persistent RNNs: Stashing Recurrent Weights On-Chip, Diamos et al., ICML 2016](http://jmlr.org/proceedings/papers/v48/diamos16.pdf)
  * [Efficient softmax approximation for GPUs. Grave et al., arXiv 2016.](https://arxiv.org/abs/1609.04309)
+
+## Lecture 7
+### Reading
+* [Sutskever et al. (2014) Sequence to Sequence Learning with Neural Networks.](https://arxiv.org/abs/1409.3215)
+
+## Lecture 8
+### Reading
+* [Bahdanau et al. (2015) Neural Machine Translation by Jointly Learning to Align and Translate.](https://arxiv.org/abs/1409.0473)
+* [Xu et al. (2015) Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention.](https://arxiv.org/pdf/1502.03044.pdf)
