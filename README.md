@@ -36,8 +36,9 @@ This repo contains all lectures slides, videos and my solutions for practices (u
     - [Download Video](http://media.podcasts.ox.ac.uk/comlab/deep_learning_NLP/2017-01_deep_NLP_6_nvidia_gpus.mp4)
 - Lecture 7: Conditional Language Models
     - [Slide](slides/Lectures-7-Conditional-Language-Models.pdf)
-    - Watch Video
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=49b356f4-567c-471a-82b9-99efee068779)
     - Download Video
+
 [More Resource recomended from Official oxford-cs-deepnlp-2017](READING.md)
 
 ## Practicals

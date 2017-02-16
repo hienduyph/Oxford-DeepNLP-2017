@@ -52,9 +52,11 @@
 
 ## Lecture 7
 ### Reading
-* [Sutskever et al. (2014) Sequence to Sequence Learning with Neural Networks.](https://arxiv.org/abs/1409.3215)
+  * [Recurrent Continuous Translation Models. Kalchbrenner and Blunsom, EMNLP 2013](http://anthology.aclweb.org/D/D13/D13-1176.pdf)
+  * [Sequence to Sequence Learning with Neural Networks. Sutskever et al., NIPS 2014](https://arxiv.org/abs/1409.3215)
+  * [Multimodal Neural Language Models. Kiros et al., ICML 2014](http://www.cs.toronto.edu/~rkiros/papers/mnlm2014.pdf)
 
 ## Lecture 8
 ### Reading
-* [Bahdanau et al. (2015) Neural Machine Translation by Jointly Learning to Align and Translate.](https://arxiv.org/abs/1409.0473)
-* [Xu et al. (2015) Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention.](https://arxiv.org/pdf/1502.03044.pdf)
+  * [Neural Machine Translation by Jointly Learning to Align and Translate. Bahdanau et al., ICLR 2015](https://arxiv.org/abs/1409.0473)
+  * [Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention. Xu et al., ICML 2015](https://arxiv.org/pdf/1502.03044.pdf)
