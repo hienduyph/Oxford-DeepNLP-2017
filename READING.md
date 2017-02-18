@@ -55,8 +55,11 @@
   * [Recurrent Continuous Translation Models. Kalchbrenner and Blunsom, EMNLP 2013](http://anthology.aclweb.org/D/D13/D13-1176.pdf)
   * [Sequence to Sequence Learning with Neural Networks. Sutskever et al., NIPS 2014](https://arxiv.org/abs/1409.3215)
   * [Multimodal Neural Language Models. Kiros et al., ICML 2014](http://www.cs.toronto.edu/~rkiros/papers/mnlm2014.pdf)
+  * [Show and Tell: A Neural Image Caption Generator. Vinyals et al., CVPR 2015](https://arxiv.org/abs/1411.4555)
 
 ## Lecture 8
 ### Reading
   * [Neural Machine Translation by Jointly Learning to Align and Translate. Bahdanau et al., ICLR 2015](https://arxiv.org/abs/1409.0473)
   * [Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention. Xu et al., ICML 2015](https://arxiv.org/pdf/1502.03044.pdf)
+  * [Incorporating structural alignment biases into an attentional neural translation model. Cohn et al., NAACL 2016](http://www.aclweb.org/anthology/N16-1102)
+  * [BLEU: a Method for Automatic Evaluation of Machine Translation. Papineni et al, ACL 2002](http://www.aclweb.org/anthology/P02-1040.pdf)

@@ -1,5 +1,6 @@
 # Oxford DeepNLP 2017
 This repo contains all lectures slides, videos and my solutions for practices (using TensorFlow)
+Official 
 
 ## Course Materials
 - Lecture 1a: Introductions
@@ -37,6 +38,10 @@ This repo contains all lectures slides, videos and my solutions for practices (u
 - Lecture 7: Conditional Language Models
     - [Slide](slides/Lectures-7-Conditional-Language-Models.pdf)
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=49b356f4-567c-471a-82b9-99efee068779)
+    - Download Video
+- Lecture 8: Generating Language with Attention
+    - [Slide](slides/Lectures-8-Generating-Language-with-Attention.pdf)
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=76125f64-f650-43ff-ba61-13e775c599dd)
     - Download Video
 
 [More Resource recomended from Official oxford-cs-deepnlp-2017](READING.md)
