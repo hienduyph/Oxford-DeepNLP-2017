@@ -63,3 +63,16 @@
   * [Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention. Xu et al., ICML 2015](https://arxiv.org/pdf/1502.03044.pdf)
   * [Incorporating structural alignment biases into an attentional neural translation model. Cohn et al., NAACL 2016](http://www.aclweb.org/anthology/N16-1102)
   * [BLEU: a Method for Automatic Evaluation of Machine Translation. Papineni et al, ACL 2002](http://www.aclweb.org/anthology/P02-1040.pdf)
+
+## Lecture 11
+### Reading
+  * [Teaching machines to read and comprehend. Hermann et al., NIPS 2015](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend)
+  * [Deep Learning for Answer Sentence Selection. Yu et al., NIPS Deep Learning Workshop 2014](https://arxiv.org/abs/1412.1632)
+
+## Lecture 8
+### Reading
+### Reading
+  * [Hybrid computing using a neural network with dynamic external memory. Graves et al., Nature 2016](http://www.nature.com/nature/journal/v538/n7626/abs/nature20101.html)
+  * [Reasoning about Entailment with Neural Attention. Rocktäschel et al., ICLR 2016](https://arxiv.org/abs/1509.06664)
+  * [Learning to transduce with unbounded memory. Grefenstette et al., NIPS 2015](http://papers.nips.cc/paper/5648-learning-to-transduce-with-unbounded-memory)
+  * [End-to-End Memory Networks. Sukhbaatar et al., NIPS 2015](https://arxiv.org/abs/1503.08895)

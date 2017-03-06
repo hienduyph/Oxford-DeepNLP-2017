@@ -1,6 +1,5 @@
 # Oxford DeepNLP 2017
 This repo contains all lectures slides, videos and my solutions for practices (using TensorFlow)
-Official 
 
 ## Course Materials
 - Lecture 1a: Introductions
@@ -42,6 +41,22 @@ Official
 - Lecture 8: Generating Language with Attention
     - [Slide](slides/Lectures-8-Generating-Language-with-Attention.pdf)
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=76125f64-f650-43ff-ba61-13e775c599dd)
+    - [Download Video](http://media.podcasts.ox.ac.uk/comlab/deep_learning_NLP/2017-01_deep_NLP_8_conditional_lang_mod_att.mp4)
+- Lecture 9: Speech Recognition (ASR)
+    - [Slide](slides/Lectures-9-Speech-Recognition.pdf)
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=790fad4d-fc9b-48e8-bd6c-d5efd9eb6663)
+    - Download Video
+- Lecture 10: Text to Speech
+    - [Slide](slides/Lectures-10-Text-To-Speech.pdf)
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0c1890bd-1ef6-4d32-b7e1-b43bf76b3dc8)
+    - Download Video
+- Lecture 11: Question Answering
+    - [Slide](slides/Lectures-11-Question-Answering.pdf)
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=94b57073-c01e-4bb5-8e34-57a8b600b140)
+    - Download Video
+- Lecture 12: Memory
+    - [Slide](slides/Lectures-12-Memory.pdf)
+    - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=84905060-007e-4710-86de-7e1b557a80e7)
     - Download Video
 
 [More Resource recomended from Official oxford-cs-deepnlp-2017](READING.md)
