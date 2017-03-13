@@ -59,9 +59,9 @@ This repo contains all lectures slides, videos and my solutions for practices (u
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=84905060-007e-4710-86de-7e1b557a80e7)
     - Download Video
 - Lecture 13: Linguistic Knowledge in Neural Networks
-    - [Slide](slides/Lectures-13-Linguistic-Knowledge-in-Neural-Networks.pdf)
+    - Slide
     - [Watch Video](https://ox.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=78e96cab-8b93-410e-95c3-70ece41a6bcd)
-    - Download Video
+    - [Download Video](http://media.podcasts.ox.ac.uk/comlab/deep_learning_NLP/2017-01_deep_NLP_13_linguistic_knowledge_neural.mp4)
 
 [More Resource recomended from Official oxford-cs-deepnlp-2017](READING.md)
 
