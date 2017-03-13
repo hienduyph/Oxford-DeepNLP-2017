@@ -69,3 +69,4 @@ This repo contains all lectures slides, videos and my solutions for practices (u
 - [Practical1 - word2vec](practicals/practical1)
 - [Practical2 - Text Classification](practicals/practical2)
 - [Practical3 - Text Classification with RNNs](practicals/practical3)
+- [Practical4 - Open Practical](practicals/practical4)
