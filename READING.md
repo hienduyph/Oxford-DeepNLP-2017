@@ -69,8 +69,7 @@
   * [Teaching machines to read and comprehend. Hermann et al., NIPS 2015](http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend)
   * [Deep Learning for Answer Sentence Selection. Yu et al., NIPS Deep Learning Workshop 2014](https://arxiv.org/abs/1412.1632)
 
-## Lecture 8
-### Reading
+## Lecture 13
 ### Reading
   * [Hybrid computing using a neural network with dynamic external memory. Graves et al., Nature 2016](http://www.nature.com/nature/journal/v538/n7626/abs/nature20101.html)
   * [Reasoning about Entailment with Neural Attention. Rocktäschel et al., ICLR 2016](https://arxiv.org/abs/1509.06664)
