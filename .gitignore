@@ -1,5 +1,5 @@
 # Datasets
 *.zip
-
+*.xml
 # Ipython stuffs
 .ipynb_checkpoints
