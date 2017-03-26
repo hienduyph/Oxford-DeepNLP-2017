@@ -10,10 +10,10 @@ XMLNAME = "ted_en-20160408.xml"
 
 def load_dataset():
     maybe_download_file()
-    with zipfile.ZipFile(FILENAME, "R") as z:
+    with zipfile.ZipFile(FILENAME, "r") as z:
         data = ET.parse(z.open(XMLNAME, "r"))
-    texts = "\n".join(data.xpath("//content/text()"))
-    labels = "\n".join(data.xpath("//keywords/text()"))
+    texts = [text for text in data.xpath("//content/text()")]
+    labels = [label for label in data.xpath("//keywords/text()")]
     texts = _preprocessing_text(texts)
     labels = _preprocessing_label(labels)
     return (texts, labels)
@@ -26,24 +26,17 @@ def maybe_download_file():
         request.urlretrieve(URL, filename=FILENAME)
 
 
-def _preprocessing_text(text):
+def _preprocessing_text(texts):
     """This preprocessing function based on the first practical"""
     # Remove all parenthesized strings
-    text = re.sub(r"\([^)]*\)", "", text)
-    # Remove the speakers' names that occur at the beginning of a line
-    # by deleting pieces of the form "<20 characters>:"
-    sentences = []
-    for line in text.split("\n"):
-        m = re.match(r"^(?:(?P<precolon>[^:]{,20}):)?(?P<postcolon>.*)$", line)
-        sentences.extend(
-            sent for sent in m.groupdict()['postcolon'].split(".") if sent)
-
-    # Start to tokenize the string
-    sentences_tokenized = []
-    for sent in sentences:
-        tokens = re.sub(r"[^a-z0-9]", " ", sent.lower().split())
-        sentences_tokenized.append(tokens)
-    return sentences_tokenized
+    texts = [re.sub(r"\([^)]*\)", "", text) for text in texts]
+    # Split text to array of setences
+    texts = [text.lower().split(".") for text in texts]
+    # Tokenize each sentence
+    texts = [
+        [re.sub(r"[^a-z0-9]+", " ", sent).split() for sent in text]
+        for text in texts]
+    return texts
 
 
 def _preprocessing_label(labels):
@@ -58,9 +51,8 @@ def _preprocessing_label(labels):
     - “Entertainment” and “Design” → oED
     - “Technology” and “Entertainment” and “Design” → TED
     """
-    labels = labels.split("\n")
-    map(_keywords_numeric, labels)
-    map(_encode_label, labels)
+    labels = [_keywords_numeric(label) for label in labels]
+    labels = [_encode_label(label) for label in labels]
     return labels
 
 
@@ -83,19 +75,20 @@ def _encode_label(label):
     - “Technology” and “Entertainment” and “Design”: set(1, 2, 3) → TED
     """
     # Becareful that the conditions is checked in order
-    if set(1, 2, 3).issubset(label):
+    label = set(label)
+    if set([1, 2, 3]).issubset(label):
         return "TED"
-    if set(1, 2).issubset(label):
+    if set([1, 2]).issubset(label):
         return "TEo"
-    if set(1, 3).issubset(label):
+    if set([1, 3]).issubset(label):
         return "ToD"
-    if set(2, 3).issubset(label):
+    if set([2, 3]).issubset(label):
         return "oED"
-    if set(1).issubset(label):
+    if set([1]).issubset(label):
         return "Too"
-    if set(2).issubset(label):
+    if set([2]).issubset(label):
         return "oEo"
-    if set(3).issubset(label):
+    if set([3]).issubset(label):
         return "ooD"
     return "ooo"
 
@@ -119,5 +112,5 @@ def _keywords_numeric(keywords):
             return 3
         return 4
 
-    map(_numeric, keywords)
-    return set(keywords)
+    keywords = [_numeric(k) for k in keywords]
+    return keywords
